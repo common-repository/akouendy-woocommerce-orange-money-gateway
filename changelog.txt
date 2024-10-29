@@ -1,0 +1,11 @@
+*** Changelog ***
+= 4.0.0 - 2024-07-31 =
+Adding woo checkout block support
+= 3.1.4 - 2023-10 =
+* Add - Bugs fix.
+= 2.0.0 - 2023-02-13 =
+* Add - Wave Senegal.
+= 2.0.0 - 2022-10-30 =
+* Add - Orange Money Senegal api.
+* Tweak - Prepare the plugin to hold future payment method.
+* Fix - Upgrade from old backend.

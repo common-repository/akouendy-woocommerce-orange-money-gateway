@@ -1,0 +1,50 @@
+.input-box {
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    background: #fff;
+    border: 1px solid #a0a0a0;
+    border-radius: 4px;
+    padding-left: 0.5rem;
+    overflow: hidden;
+    font-family: sans-serif;
+  }
+  
+  .input-box .prefix {
+    font-weight: 300;
+    font-size: 14px;
+    color: #999;
+  }
+  
+  .input-box input {
+    flex-grow: 1;
+    font-size: 14px;
+    background: #fff;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+  }
+  
+  .input-box:focus-within {
+    border-color: #777;
+  }
+
+.akd-input{
+  width: 100%;
+}
+
+  /* Add an icon after the "Orange Money Sénégal" label */
+    #radio-control-wc-payment-method-options-akd-orange-money-sn__label::after {
+        content: url('https://static-files.akouendy.com/woo/orange-money.png');
+        display: inline-block;
+        margin-left: 8px; /* Adjust spacing as needed */
+        vertical-align: middle; /* Align the icon vertically with the text */
+    }
+
+    /* Add an icon after the "Wave Sénégal" label */
+    #radio-control-wc-payment-method-options-akd-wave__label::after {
+        content: url('https://static-files.akouendy.com/woo/wave.png');
+        display: inline-block;
+        margin-left: 8px; /* Adjust spacing as needed */
+        vertical-align: middle; /* Align the icon vertically with the text */
+    }
